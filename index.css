@@ -1,0 +1,41 @@
+body {
+  margin-top: 200px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial,
+    sans-serif;
+  background-image: url(./images/bkgrd.jpg);
+  background-size: cover;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+#container {
+  background: #171d6d;
+  width: 30%;
+  border-radius: 10px;
+  border: 5px solid blue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.95);
+}
+
+h1 {
+  color: #fb4c16;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  color: #1c1a45;
+  width: 150px;
+  background: #c0a9ad;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
